@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    z-index: 100;
+}
+
+.nav-grad{
+    background-color: black;
+}
+
+.navbar-brand{
+    font-size:x-large;
+   
+}
+
+.nav-grad{
+    background-color: black;
+}
+
+.grad{
+    background-color: lightgreen; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right,green, lightgreen);
+}
+
+.nav-link{
+    margin-left: 8vw;
+}
+
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+    background-color:lightgreen;
+    z-index: -1;
+    /*background-image: url('images/backg.jpg');*/
+}
+
+
+.back-vid{
+    position: absolute;
+    right:0;
+    bottom:0;
+    
+}
+
+@media (min-aspect-ratio:16/9){
+    .back-vid{
+        width:100%;
+        height:auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9){
+    .back-vid{
+        width:auto;
+        height:100%;
+    }
+}
+
+.head-title{
+    position: absolute;
+    color:white;
+    font-size: 6em;
+    font-weight: 700;
+    background-color:transparent;
+    z-index: 1000;
+    border-radius: 20px;
+    cursor:pointer;
+}  
+
+@media screen and (max-width:1200px) {
+    .head-title{
+        font-size: 5em;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .head-title{
+        font-size: 4em;
+        font-weight: 400;
+    }
+}
+
+.card{
+    margin: 10%;
+    display: inline-block;
+}
+
+.card-img-top{
+    width:100%;
+    height:250px;
+}
+
+@media screen and (min-width:1000px){
+    .card{
+        width:50%;
+        margin-left:24%;
+    }
+}
+
+@media screen and (min-width:1500px){
+    .card{
+        width:40%;
+        margin:4.9%;
+        
+    }
+}
+
+
+Footer{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
